@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>编辑台</title>
+  <style>
+    :root { --bg: #0e0f13; --panel: #16181e; --line: #262932; --text: #e9eaee; --sub: #8b8f9a; --accent: #ffc979; --red: #ff6b6b; --green: #5fd38d; }
+    * { box-sizing: border-box; }
+    html, body, #root { height: 100%; margin: 0; }
+    body { background: var(--bg); color: var(--text); font: 14px/1.5 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    button { font: inherit; color: var(--text); background: #232631; border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
+    button:hover { background: #2c3040; }
+    button.primary { background: var(--accent); color: #1a1206; border-color: var(--accent); font-weight: 700; }
+    button.ghost { background: transparent; }
+    button:disabled { opacity: .45; cursor: default; }
+    input, select, textarea { font: inherit; color: var(--text); background: #0f1116; border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; }
+    textarea { width: 100%; resize: vertical; min-height: 34px; }
+    input[type=range] { width: 100%; padding: 0; }
+    .edited { box-shadow: inset 3px 0 0 var(--accent); }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="./main.tsx"></script>
+</body>
+</html>

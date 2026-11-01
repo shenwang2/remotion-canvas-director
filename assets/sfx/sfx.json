@@ -1,0 +1,102 @@
+{
+ "whoosh-air": {
+  "role": "transition",
+  "name": "空气嗖",
+  "use": "柔和的转场，人物和画布之间"
+ },
+ "whoosh-fast": {
+  "role": "transition",
+  "name": "快速嗖",
+  "use": "节奏快的转场、镜头飞到下一站"
+ },
+ "swoosh-deep": {
+  "role": "transition",
+  "name": "低沉扫过",
+  "use": "分量重的转场、章节切换"
+ },
+ "swipe-up": {
+  "role": "transition",
+  "name": "上扫",
+  "use": "向上滑走、翻到下一部分"
+ },
+ "riser": {
+  "role": "reveal",
+  "name": "蓄力上升",
+  "use": "揭晓前的蓄力，结束在揭晓那一刻"
+ },
+ "reveal-hit": {
+  "role": "reveal",
+  "name": "揭晓重击",
+  "use": "揭晓那一刻：低沉一击加一点闪光"
+ },
+ "pop-bubble": {
+  "role": "pop",
+  "name": "气泡弹出",
+  "use": "卡片、标签冒出来"
+ },
+ "pop-click": {
+  "role": "pop",
+  "name": "清脆点击",
+  "use": "小元素出现、选中"
+ },
+ "pop-bright": {
+  "role": "pop",
+  "name": "明亮弹出",
+  "use": "亮点、正向的东西出现"
+ },
+ "tick-ui": {
+  "role": "tick",
+  "name": "界面滴答",
+  "use": "计数、逐项点亮"
+ },
+ "blip-digital": {
+  "role": "tick",
+  "name": "数字哔哔",
+  "use": "数据、科技感的小提示"
+ },
+ "typing": {
+  "role": "tick",
+  "name": "键盘敲击",
+  "use": "打字、输入文字"
+ },
+ "ding": {
+  "role": "notify",
+  "name": "叮",
+  "use": "完成、正确、提示"
+ },
+ "notify-two": {
+  "role": "notify",
+  "name": "双音提示",
+  "use": "通知、消息弹出"
+ },
+ "sparkle": {
+  "role": "notify",
+  "name": "闪光",
+  "use": "高光、惊喜"
+ },
+ "impact-low": {
+  "role": "hit",
+  "name": "低沉撞击",
+  "use": "重要结论落定、数字落定"
+ },
+ "thud-soft": {
+  "role": "hit",
+  "name": "轻闷落定",
+  "use": "卡片落定、轻的强调"
+ },
+ "stamp": {
+  "role": "hit",
+  "name": "盖章",
+  "use": "盖章、划掉、定论"
+ },
+ "shutter": {
+  "role": "hit",
+  "name": "快门",
+  "use": "截图、定格"
+ },
+ "glitch": {
+  "role": "hit",
+  "name": "故障闪烁",
+  "use": "出错、旧方法的问题"
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "canvas-director-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@remotion/cli": "4.0.520",
+    "@remotion/google-fonts": "4.0.520",
+    "@remotion/media": "4.0.520",
+    "@remotion/player": "^4.0.520",
+    "@remotion/renderer": "4.0.520",
+    "lucide-react": "0.468.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.520",
+    "simple-icons": "13.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@vitejs/plugin-react": "^4.5.2",
+    "typescript": "5.8.3",
+    "vite": "^6.3.5"
+  }
+}
